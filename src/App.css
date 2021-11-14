@@ -1,0 +1,97 @@
+.App {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #6495ed;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.Header-Name {
+    color: white;
+    font-size: 36px;
+}
+
+.Main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12vh;
+    padding: 2vw;
+}
+
+.RadioGroup{
+    margin-bottom: 2vh;
+}
+
+.InputBox{
+    margin-top: 2vh;
+}
+
+.Submit{
+    background-color: cornflowerblue;
+    height: 6vh;
+    width: 12vw;
+    justify-content: center;
+    border-color: white;
+    color: white;
+}
+
+.ContentBox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 18vh;
+}
+
+.Inbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+
+.Outbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin-top: 4vh;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #6495ed;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.Analyze-Button{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
